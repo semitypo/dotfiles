@@ -6,6 +6,7 @@ if [ "$XDG_SESSION_DESKTOP" = "hyprland" ]; then
     export XDG_CURRENT_DESKTOP=Hyprland
 fi
 
+eval "$(starship init bash)"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
