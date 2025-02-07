@@ -17,4 +17,4 @@ alias grep='grep --color=auto'
 alias firefox='/usr/bin/firefox &'
 
 #Show system info at starup
-neofetch
+fastfetch
